@@ -209,7 +209,7 @@ export const useMode = () => {
 
     const colorMode = useMemo(
         () => ({
-            toogleColorMode: () =>
+            toggleColorMode: () =>
                 setMode((prev) => (prev === "light" ? "dark" : "light")),
         }),
         []
